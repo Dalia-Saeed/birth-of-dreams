@@ -85,7 +85,7 @@ export const initQuestionPage = () => {
     if (currentQuestionIndex < quizData.length) {
       initQuestion();
     } else {
-      alert(`Quiz finished ${userName}. You answered ${correctAnswersCount} questions correctly!`);
+      alert(`Quiz finished ${userName}. Your Score ${correctAnswersCount}`);
     }
   };
 
